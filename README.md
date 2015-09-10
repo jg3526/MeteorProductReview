@@ -8,7 +8,7 @@ A system that allow users to write reviews about products add products for revie
 
 ## Structure
 ```
-MeteorFAQComponent/
+MeteorProductReview/
 ├── server/
 │   └── common.js
 ├── client/
