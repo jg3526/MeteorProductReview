@@ -3,6 +3,13 @@ A system that allow users to write reviews about products add products for revie
 
 ## Features
 
+* **Front-end:** twbs:bootstrap
+* **Routing:** iron:router
+* **User accounts:** accounts-ui, accounts-password
+* **Uploading files:** CollectionFS
+* **Format data & time:** [momentjs:moment] (https://atmospherejs.com/momentjs/moment)
+* **Flash messages:** [mrt:flash-messages](https://atmospherejs.com/mrt/flash-messages)
+
 ## Deployment:
 
 
