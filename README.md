@@ -25,6 +25,7 @@ MeteorProductReview/
 │   │   │   ├── head.html
 │   │   │   ├── sidebar.html
 │   │   │   ├── navbar.html
+│   │   │   ├── footer.html
 │   │   │   ├── layout.html
 │   │   │   └── includes.js
 │   │   └── homepage/
