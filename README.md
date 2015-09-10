@@ -21,15 +21,19 @@ MeteorProductReview/
 ├── client/
 │   ├── common.js
 │   ├── templates/
-│   │   ├── head.html
-│   │   ├── navbar.html
-│   │   ├── layout.html
-│   │   └── 
-│   │       ├── 
-│   │       └── 
+│   │   ├── includes/
+│   │   │   ├── head.html
+│   │   │   ├── sidebar.html
+│   │   │   ├── navbar.html
+│   │   │   ├── layout.html
+│   │   │   └── includes.js
+│   │   └── homepage/
+│   │       ├── homepage.html
+│   │       └── homepage.js
 │   └── stylesheets/
-│       └── faq.css
+│       └── pr.css
 ├── lib/
+│   ├── common.js
 │   ├── collections.js
 │   └── router.js
 └── public/
