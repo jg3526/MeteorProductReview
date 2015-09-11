@@ -1,5 +1,7 @@
 <template name="homepage">
 	{{#each products}}
 		<p>{{name}}</p>
+	{{else}}
+		<p>No Products Found.</p>
 	{{/each}}
 </template>
