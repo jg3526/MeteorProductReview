@@ -28,9 +28,15 @@ MeteorProductReview/
 │   │   │   ├── footer.html
 │   │   │   ├── layout.html
 │   │   │   └── includes.js
-│   │   └── homepage/
-│   │       ├── homepage.html
-│   │       └── homepage.js
+│   │   ├── homepage/
+│   │   │   ├── homepage.html
+│   │   │   └── homepage.js
+│   │   ├── products/
+│   │   │   ├── products.html
+│   │   │   └── products.js
+│   │   └── addproduct/
+│   │       ├── products.html
+│   │       └── products.js
 │   └── stylesheets/
 │       └── pr.css
 ├── lib/
