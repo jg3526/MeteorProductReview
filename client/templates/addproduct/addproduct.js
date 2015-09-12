@@ -12,23 +12,29 @@ Template.addproduct.events({
 			ProductsImages.insert(fsFile, function(err, result){
 				if (!err) {
 					var productImage = 'cfs/files/productsImages/' + result._id;
-				} else {
-					var productImage = 'apple-icon-120x120.png';
+					// insert a new record for the product	
+					Products.insert({
+						name: name,
+						category: category,
+						description: description,
+						isfeatured: isfeatured,
+						image: productImage,
+						createdAt: new Date()
+					});
 				}
 			});
 		} else {
 			var productImage = 'apple-icon-120x120.png';
+			// insert a new record for the product	
+			Products.insert({
+				name: name,
+				category: category,
+				description: description,
+				isfeatured: isfeatured,
+				image: productImage,
+				createdAt: new Date()
+			});
 		}
-
-		// insert a new record for the product	
-		Products.insert({
-			name: name,
-			category: category,
-			description: description,
-			isfeatured: isfeatured,
-			image: productImage,
-			createdAt: new Date()
-		});
 		
 		// clear form
 		event.target.name.value = "";
